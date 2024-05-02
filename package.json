@@ -1,0 +1,25 @@
+{
+  "name": "discord-rpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feng-zhua/Discord-RPC.git"
+  },
+  "author": "xq-ren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feng-zhua/Discord-RPC/issues"
+  },
+  "homepage": "https://github.com/feng-zhua/Discord-RPC#readme",
+  "dependencies": {
+    "discord-rpc": "^4.0.1",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.0.1",
+    "nodemon" : "^3.1.0"
+  }
+}
