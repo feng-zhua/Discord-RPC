@@ -1,5 +1,6 @@
 require('dotenv').config();
 const clientId = process.env.USER_ID;
+const keep_alive = require('./keep_alive.js');
 const DiscordRPC = require('discord-rpc');
 const RPC = new DiscordRPC.Client({ transport: 'ipc'});
 
